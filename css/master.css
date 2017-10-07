@@ -29,6 +29,7 @@ h1 {
   font-size: 30px;
   color: DarkSlateGrey;
   font-family: 'Roboto', sans-serif;
+  margin:6px;
 }
 
 p, h3 {
@@ -81,6 +82,11 @@ h3 {
 
 .work, .contact {
   margin-top: 23%;
+}
+
+.contact {
+  width:100%;
+  margin-bottom:23%;
 }
 
 .left, .right, .center{
@@ -212,6 +218,29 @@ footer h5 {
   margin-top: 40px;
   font-family: 'Roboto', sans-serif;
   color: GhostWhite;
+}
+
+input, textarea {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid GhostWhite;
+  margin:12px;
+  margin-left: 40px;
+  text-align: justify;
+  font-size: 30px;
+  font-weight: 100;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  border: 2px solid ghostwhite;
+  font-size: 15px;
+}
+
+.button {
+  border:none;
+  cursor: pointer;
 }
 
 .float {
