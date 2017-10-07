@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Amanda Marie Allen</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100|Sacramento" rel="stylesheet">
+  <link rel="stylesheet" href="./node_modules/wowjs/css/libs/animate.css">
+  <link rel="stylesheet" href="./css/master.css" />
+</head>
+
+<body>
+  <section class="header" id="top">
+    <section clas="content">
+    <article class="logo">
+      <img src="./ama.png" alt="Amanda Allen" height=600px width=600px>
+      <!-- Amanda Marie Allen -->
+    </article>
+    <canvas height="58px" width="276px" class="logo"></canvas>
+  </section>
+    <div class="links menu">
+      <a class="menulink" href="#about">About</a> \\
+      <a class="menulink" href="#work">Work</a> \\
+      <a class="menulink" href="#contact">Contact</a> \\
+      <a class="menulink" href="https://drive.google.com/file/d/0B7nTHiqsCu2OUmo5VGtjRG1ZLWc/view?usp=sharing">Resume</a>
+    </div>
+    <a href="#about" class="float leftside"><i class="fa fa-angle-double-down fa-3x link" aria-hidden="true"></i></a>
+    <a href="#top" class="float rightside"><i class="fa fa-angle-double-up fa-3x link" aria-hidden="true"></i></a>
+  </section>
+
+  <main>
+    <section id="about" class='left section'>
+      <h1>about</h1>
+      <section class="flex-grid">
+        <article class="wow fadeIn col justright play">
+          <h3 class="">Work</h3>
+          <p>The second class of critics, who, however much they approve of philosophy, nevertheless would rather have it less eagerly prosecuted, are asking for a restraint that it is not easy to practise. The study is one that when once taken up admits
+            of no restriction or control. In fact, the attitude of the former class, who attempt to dissuade us from philosophy alto- gether, seems almost less unreasonable than that of those who would set limits to what is essentially un- limited.
+          </p>
+        </article>
+        <article class="wow fadeIn col3">
+          <img src="./me2.jpg" class="marg" height="400px">
+        </article>
+      </section>
+      <section class="flex-grid">
+        <article class="wow fadeIn col4">
+          <img src="./me.jpg" height="400px" class="marg hidesmall">
+        </article>
+        <article class="wow fadeIn col justright play">
+          <h3 class="">Play</h3>
+          <p>
+            The second class of critics, who, however much they approve of philosophy, nevertheless would rather have it less eagerly prosecuted, are asking for a restraint that it is not easy to practise. The study is one that when once taken up admits of no restriction
+            or control.
+          </p>
+        </article>
+      </section>
+    </section>
+
+    <section id="work" class="work">
+      <section id="portfolio" class="left">
+        <h1>lately</h1>
+        <section class="flex-grid">
+          <div class="wow fadeIn col big projectlink">
+            <div onclick="showWork('divvi')">
+              <h3>DIVVI</h3>
+              <p>Decentralized application built on the Ethereum Blockchain using Truffle, Web3, React Native, and Redux- users earn coins by watching ads, then distribute those coins to charities of thier choosing.</p>
+            </div>
+          </div>
+          <div class="wow fadeIn col small projectlink">
+            <div onclick="showWork('budgie')">
+              <h3>BUDGIE</h3>
+              <p>Mobile data visualization application that allows users to add receipts and track expenses - built with Tesseract OCR and D3.</p>
+            </div>
+          </div>
+        </section>
+        <section class="flex-grid">
+          <div class="wow fadeIn col small projectlink">
+            <div onclick="showWork('nutriSNP')">
+              <h3>NUTRISNP</h3>
+              <p>Advanced calorie and macronutrient recommendations based on results from 23andMe - uses the 23andMe API and PassportJS for social login.</p>
+            </div>
+          </div>
+          <div class="wow fadeIn col big projectlink">
+            <div onclick="showWork('realist')">
+              <h3>REALIST</h3>
+              <p>Web application built using the Google Vision API  for image recognition and Firebase for data storage - users are prompted to draw a specific image and Google Vision attempts to guess the prompt.</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="divvi" class="left">
+        <a onclick="showWork('divvi')"><i class="fa fa-angle-double-left fa-3x link" aria-hidden="true"></i></a>
+        <section class="flex-grid">
+          <article class="wow fadeIn col big">
+            <h3>Divvi</h3>
+            <p>A mobile dApp built on the Ethereum blockchain. Divvi uses a custom coin, called Divvi Coin, for all transactions made within the application. Users earn coins by watching ads and then distribute those coins to charities of their choosing.
+            </p>
+            <article class="links">
+              <a class="link2" href="http://www.github.com/ama2488/divvi"><i class="fa fa-github link2" aria-hidden="true"></i>View Code</a>
+              <a class="link2" href="https://youtu.be/P6dwDKgz4kU"><i class="fa fa-video-camera link2" aria-hidden="true"></i>Full Demo</a>
+            </article>
+          </article>
+          <article class="wow fadeIn col3">
+            <img src="./2.png" alt="Amanda Allen" height=300px width=300px class="hidesmall">
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col4">
+            <iframe src='http://gifs.com/embed/divvi-VPpGyz' frameborder='0' scrolling='no' width='202px' height='348px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'></iframe>
+            <iframe src='http://gifs.com/embed/divvi-zKPOEq' class="hidesmall" frameborder='0' scrolling='no' width='202px' height='348px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'></iframe>
+          </article>
+          <article class="wow fadeIn col big">
+            <h3>Browse Organizations</h3>
+            <p>Users swipe left or right to browse different charities. Embedded in the list of charities, there are advertisements with an associated coin value. Clicking or swiping right on the ad, opens a webview to show the ad. The webview closes once
+              the ad completes and the user's balance increases by the associated coin value.</p>
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col big">
+            <h3>Manage Account</h3>
+            <p>The account tab shows the current balance, the total amount donated, and the current donation amount. The donation amount determines how many coins are donated to a charitable organization when the user swipes right. The history tab lists
+              the users donations and the ads they've watched. Users can share history via text/email/social media.
+            </p>
+          </article>
+          <article class="wow fadeIn col3">
+            <iframe src='http://gifs.com/embed/divvi-D9Nj76' class="hidesmall" frameborder='0' scrolling='no' width='202px' height='346px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'></iframe>
+            <iframe src='http://gifs.com/embed/divvi-nrQyo5' frameborder='0' scrolling='no' width='202px' height='346px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'></iframe>
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col4">
+            <img src="./divvistack.png" class="responsive hidesmall" alt="Amanda Allen">
+          </article>
+          <article class="wow fadeIn col big">
+            <h3>Technology</h3>
+            <p class='condensed'>Blockchain: Truffle, Solidity, MetaMask, Geth, TestRPC, Mocha + Chai</p>
+            <p class='condensed'>Mobile: React Native, Redux, Web3, NativeBase</p>
+            <p class='condensed'>Back End: NodeJS, Express, PostgreSQL</p>
+          </article>
+        </section>
+      </section>
+
+      <section id="budgie" class="left">
+        <a onclick="showWork('budgie')"><i class="fa fa-angle-double-left fa-3x link" aria-hidden="true"></i></a>
+        <section class="flex-grid">
+          <article class="wow fadeIn col big">
+            <h3>Budgie</h3>
+            <p>Budgie is a mobile application that uses Tesseract OCR to convert receipt images into usable data. This data is then visualized using D3/NVD3 to show spending patterns.</p>
+            <article class="links">
+              <a class='link2' href="http://github.com/shhanson/budgie"><i class="fa fa-github link2" aria-hidden="true"></i>Front End</a>
+              <a class='link2' href="https://github.com/shhanson/budgie/tree/database"><i class="fa fa-github link2" aria-hidden="true"></i>Back End</a>
+              <a class='link2' href="https://www.youtube.com/watch?v=8XtNTxX77M4"><i class="fa fa-video-camera link2" aria-hidden="true"></i>View Demo</a>
+            </article>
+          </article>
+          <article class="wow fadeIn col3">
+            <img src="https://pre00.deviantart.net/a231/th/pre/f/2011/307/a/e/pudgy_budgie_by_minjixmuu_chan-d4e3x26.png" class="hidesmall" height="400px" width="400px">
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col4">
+            <iframe src='http://gifs.com/embed/idfie-G5nj83' frameborder='0' scrolling='no' width='204px' height='346px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'></iframe>
+          </article>
+          <article class="wow fadeIn col big">
+            <h3>Image Recognition</h3>
+            <p>Budgie allows users to take a picture of a receipt using their device's camera or select an image from their camera roll. A base64 encoding of the image is then sent to a server, which uses the ImageMagick script to clean the image. The cleaned
+              TIF file is then processed by Tesseract OCR to extract the text. Regualar expressions parse the text string to return individual receipt items. These items are then sent back to the application as JSON. The user is able to edit the populated
+              data before it is stored in the database.</p>
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col big">
+            <h3>Data Visualization</h3>
+            <p>Budgie makes use of the NVD3 library to create D3 data visualizations, based on the user's spending data. The data is retrieved from the database, formatted into , then rendered into an interactive graph that allows user's to analyze their
+              spending over time and across different categories. Users can toggle categories on and off to view potential savings.
+          </article>
+          <article class="wow fadeIn col3">
+            <iframe src='http://gifs.com/embed/budgie-demo2-4Rm79k' frameborder='0' scrolling='no' width='202px' height='360px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'></iframe>
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col4">
+            <img src="./budgiestack.png" class="responsive hidesmall" height=400px width=600px>
+          </article>
+          <article class="wow fadeIn col big">
+            <h3>Technology</h3>
+            <p >Mobile: Angular, Ionic, Cordova, D3, NVD3</p>
+            <p >Back End: NodeJS, Express, PostgreSQL, Tesseract OCR, ImageMagick</p>
+            <p >Hosting: AWS - EC2 instance</p>
+          </article>
+        </section>
+      </section>
+
+      <section id="nutriSNP" class="left">
+        <a onclick="showWork('nutriSNP')"><i class="fa fa-angle-double-left fa-3x link" aria-hidden="true"></i></a>
+        <section class="flex-grid">
+          <article class="wow fadeIn col big">
+            <h3>nutriSNP</h3>
+            <p>nutriSNP is an advanced calorie and macronutrient calculator that integrates with the 23andMe API to determine users' metabolic phenotype. This phenotype, along with some basic lifestyle data, is used to calculate caloric and macronutrient
+              reccommendations based on the user's current goals.</p>
+              <article class="links">
+                <a class='link2' href="http://github.com/ama2488/nutrisnp"><i class="fa fa-github link2" aria-hidden="true"></i>View Code</a>
+                <a class='link2' href="https://www.nutrisnp.herokuapp.com"><i class="fa fa-external-link link2" aria-hidden="true"></i>Live Site</a>
+              </article>
+          </article>
+          <article class="wow fadeIn col3">
+            <img src="./mainns.png" class="responsive">
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col4">
+            <img src="./23andme.png" class="responsive">
+          </article>
+          <article class="wow fadeIn col big">
+            <h3>Genetic Data</h3>
+            <p>Genetic data is gathered via the 23andMe API. The user must authenticate nutriSNP to import their results. Those results are then used to calculate the user's metabolic phenotype. Both the genotype and phenotype are displayed on the user's
+              profile page.</p>
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col big">
+            <h3>Calorie Recommendations</h3>
+            <p>Calorie recommendations are based on user-entered lifestyle data (height, weight, age, gender, and activity levels). The macronutrient ratios and amounts are determined from the user's 23andMe results. These recommendations are then displayed
+              on a clean, easy-to-read profile page. If a user does not currently have an account with 23andMe, they may still receive calorie and macronutrient recommendations based on their lifestyle data.</p>
+          </article>
+          <article class="wow fadeIn col3">
+            <img src="./profile.png" class="responsive">
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col4">
+            <img src="./nutristack.png" class="responsive hidesmall">
+          </article>
+          <article class="wow fadeIn col big">
+            <h3>Technology</h3>
+            <p class='condensed'>Front End: Javascript, EJS, Materialize, PassportJS</p>
+            <p class='condensed'>Back End: NodeJS, Express, PostgreSQL, Mocha + Chai, Heroku, 23andMe API</p>
+
+          </article>
+        </section>
+      </section>
+
+      <section id="realist" class="left">
+        <a onclick="showWork('realist')"><i class="fa fa-angle-double-left fa-3x link" aria-hidden="true"></i></a>
+        <section class="flex-grid">
+          <article class="wow fadeIn col big">
+            <h3>Realist</h3>
+            <p>Realist is a drawing game that makes use of the Google Vision API. Users are prompted to draw a specific image. Once the image is submitted, Google Vision attempts to guess the prompt. On the results page, users can browse submissions from
+              other users, along with the Google Vision results. Users may log in with either Google or Facebook to sign their artwork. Otherwise, the drawings will show as Anonymous. </p>
+              <article class="links">
+                <a class="link2" href="http://github.com/ama2488/realist"><i class="fa fa-github link2" aria-hidden="true"></i>View Code</a>
+                <a class="link2" href="https://realist-167521.firebaseapp.com/"><i class="fa fa-external-link link2 " aria-hidden="true"></i>Live Site</a>
+              </article>
+          </article>
+          <article class="wow fadeIn col3">
+            <img src="./realist.png" class="responsive hidesmall">
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col4">
+            <img src="./results.png" class="responsive">
+          </article>
+          <article class="wow fadeIn col big">
+            <h3>Image Recognition</h3>
+            <p>Once a user submits an image, the base64 string is sent to the Google Vision API for interpretation and the user is taken to the results page. The results are listed in order of confidence percentage. Generic results, such as "line art" are
+              filtered from the results. The submitted image is also sent to the Firebase database to later be displayed in the gallery. </p>
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col big">
+            <h3>Gallery</h3>
+            <p>The gallery shows artwork submitted by users, along with the corresponding Google Vision results. If a user logs in, their name is displayed with their drawing. Otherwise, the images are shown as annonymous.</p>
+          </article>
+          <article class="wow fadeIn col3">
+            <img src="./gallery.png" class="responsive">
+          </article>
+        </section>
+        <section class="flex-grid">
+          <article class="wow fadeIn col4">
+            <img src="./realiststack.png" class="responsive hidesmall">
+          </article>
+          <article class="wow fadeIn col big">
+            <h3>Technology</h3>
+            <p class='condensed'> Javascript, Materialize, Firebase, Google Vision API, DrawingBoard.js</p>
+          </article>
+        </section>
+      </section>
+    </section>
+
+    <section id="contact" class="center links contact">
+</section>
+  </main>
+
+</body>
+<footer>
+  <div class="links contactlinks">
+      <a href="http://www.linkedin.com/in/amandamarieallen/"><i class="fa fa-linkedin-square fa-2x contactlink" aria-hidden="true"></i></a>
+      <a href="mailto:hello@amandamallen.com"><i class="fa fa-envelope fa-2x contactlink" aria-hidden="true"></i></a>
+      <a href="http://github.com/ama2488"><i class="fa fa-github-square fa-2x contactlink" aria-hidden="true"></i></a>
+    </div>
+    <h5>
+    Copyright 2017 Amanda Marie Allen
+  </h5>
+</footer>
+<script src="https://use.fontawesome.com/0c9d470fc5.js"></script>
+<script src="./node_modules/wowjs/dist/wow.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script type="text/javascript">
+  var wow = new WOW({
+    boxClass: 'wow',
+    animateClass: 'animated',
+    offset: 0,
+    mobile: true,
+    live: true,
+    callback: function(box) {
+
+  },
+  scrollContainer: null
+  });
+  wow.init();
+
+  function showWork(work) {
+    $(`#${work}`).toggle();
+    $('#portfolio').toggle();
+  }
+
+  $('#down').click(() => {
+    let next = $(this).closest('section').next('section');
+    $('html, body').animate({
+      scrollTop: $(next).offset().top
+    }, 2000);
+  });
+
+</script>
+</html>
