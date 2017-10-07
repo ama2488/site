@@ -12,16 +12,16 @@
 <body>
   <section class="header" id="top">
     <section clas="content">
-    <article class="logo">
-      <img src="./ama.png" alt="Amanda Marie Allen">
-      <!-- Amanda Marie Allen -->
-    </article>
-    <canvas height="58px" width="276px" class="logo"></canvas>
-  </section>
+      <article class="logo">
+        <img src="./ama.png" alt="Amanda Marie Allen">
+        <!-- Amanda Marie Allen -->
+      </article>
+      <canvas height="58px" width="276px" class="logo"></canvas>
+    </section>
     <div class="links menu">
-      <a class="menulink" onclick="onLinkClick('about')" >About</a> \\
-      <a class="menulink" onclick="onLinkClick('work')" >Work</a> \\
-      <a class="menulink" onclick="onLinkClick('contact')" >Contact</a> \\
+      <a class="menulink" onclick="onLinkClick('about')">About</a> \\
+      <a class="menulink" onclick="onLinkClick('work')">Work</a> \\
+      <a class="menulink" onclick="onLinkClick('contact')">Contact</a> \\
       <a class="menulink" href="https://drive.google.com/file/d/0B7nTHiqsCu2OUmo5VGtjRG1ZLWc/view?usp=sharing">Resume</a>
     </div>
     <a onclick="onLinkClick('about')" class="float leftside"><i class="fa fa-angle-double-down fa-3x link" aria-hidden="true"></i></a>
@@ -34,9 +34,8 @@
       <section class="flex-grid">
         <article class="wow fadeIn col justright play">
           <h3 class="">Work</h3>
-          <p>I'm a full stack web developer with experience in all stages of the product lifecycle. I've worn many hats in my career - Quality Assurance, Developer, Product Owner, Systems Analyst.
-            This has given me a unique perspective on the interworkings of delivering quality products - and staying sane in the process.
-            I thrive on solving problems and am able to navigate complex, multi-disciplinary projects with poise and calm.
+          <p>I'm a full stack web developer with experience in all stages of the product lifecycle. I've worn many hats in my career - Quality Assurance, Developer, Product Owner, Systems Analyst. This has given me a unique perspective on the interworkings
+            of delivering quality products - and staying sane in the process. I thrive on solving problems and am able to navigate complex, multi-disciplinary projects with poise and calm.
           </p>
         </article>
         <article class="wow fadeIn col3">
@@ -50,7 +49,8 @@
         <article class="wow fadeIn col justright play">
           <h3 class="">Play</h3>
           <p>
-          Problem solving isn't just a work thing. Outside of work, I enjoy continuing to challenge myself - whether it's tumbling around practicing inversions, enjoying one of Austin's many trails, or taking an interesting course online (usually something science-related). When I really want to unwind, I can be found reading a good book at Barton Springs or trying to find some not-so-good-for-you vegan food.
+            Problem solving isn't just a work thing. Outside of work, I enjoy continuing to challenge myself - whether it's tumbling around practicing inversions, enjoying one of Austin's many trails, or taking an interesting course online (usually something science-related).
+            When I really want to unwind, I can be found reading a good book at Barton Springs or trying to find some not-so-good-for-you vegan food.
           </p>
         </article>
       </section>
@@ -83,7 +83,7 @@
           <div class="wow fadeIn col big projectlink">
             <div onclick="showWork('realist')">
               <h3>REALIST</h3>
-              <p>Web application built using the Google Vision API  for image recognition and Firebase for data storage - users are prompted to draw a specific image and Google Vision attempts to guess the prompt.</p>
+              <p>Web application built using the Google Vision API for image recognition and Firebase for data storage - users are prompted to draw a specific image and Google Vision attempts to guess the prompt.</p>
             </div>
           </div>
         </section>
@@ -94,7 +94,8 @@
         <section class="flex-grid">
           <article class="wow fadeIn col big">
             <h3>Divvi</h3>
-            <p>A mobile dApp built on the Ethereum blockchain. Divvi uses a custom coin, called Divvi Coin, for all transactions made within the application. Users earn coins by watching ads and then distribute those coins to charities of their choosing. Smart contracts were built, compiled, and deployed using the Truffle framework and the Solidity language. The mobile application was build using React Native + Redux and Web3 to implement JSON-RPC and interact with the smart contracts.
+            <p>A mobile dApp built on the Ethereum blockchain. Divvi uses a custom coin, called Divvi Coin, for all transactions made within the application. Users earn coins by watching ads and then distribute those coins to charities of their choosing.
+              Smart contracts were built, compiled, and deployed using the Truffle framework and the Solidity language. The mobile application was build using React Native + Redux and Web3 to implement JSON-RPC and interact with the smart contracts.
             </p>
             <article class="links">
               <a class="link2" href="http://www.github.com/ama2488/divvi"><i class="fa fa-github link2" aria-hidden="true"></i>View Code</a>
@@ -102,7 +103,7 @@
             </article>
           </article>
           <article class="wow fadeIn col3">
-            <img src="./2.png" alt="Amanda Allen" width:'100%' class="hidesmall">
+            <img src="./2.png" alt="Amanda Allen" width: '100%' class="hidesmall">
           </article>
         </section>
         <section class="flex-grid">
@@ -112,16 +113,16 @@
           </article>
           <article class="wow fadeIn col full big">
             <h3>Browse Organizations</h3>
-            <p>The main page is styled in a Tinder-like manner - users swipe left or right to browse different charities. Embedded in the stack of charities, there are advertisements with associated coin values. Clicking or swiping right on an ad opens a webview to display the ad. The webview closes once
-              the ad completes and the user's balance increases by the associated coin value. Swiping right on a charity donates to that organization.</p>
-              <i id="organizations" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <p>The main page is styled in a Tinder-like manner - users swipe left or right to browse different charities. Embedded in the stack of charities, there are advertisements with associated coin values. Clicking or swiping right on an ad opens a
+              webview to display the ad. The webview closes once the ad completes and the user's balance increases by the associated coin value. Swiping right on a charity donates to that organization.</p>
+            <i id="organizations" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
         </section>
         <section class="flex-grid">
           <article class="wow fadeIn col big full">
             <h3>Manage Account</h3>
-            <p>The account tab shows the current balance, the total amount donated, and the current donation amount. The donation amount determines how many coins are donated to a charitable organization when the user swipes right and may be updated. The history tab lists
-              all donations and the ads watched. Users can share history via text/email/social media.
+            <p>The account tab shows the current balance, the total amount donated, and the current donation amount. The donation amount determines how many coins are donated to a charitable organization when the user swipes right and may be updated. The
+              history tab lists all donations and the ads watched. Users can share history via text/email/social media.
             </p>
             <i id="accounts" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
@@ -131,7 +132,7 @@
           </article>
         </section>
         <section class="flex-grid">
-          <article  class="wow fadeIn col4 divstack">
+          <article class="wow fadeIn col4 divstack">
             <img src="./divvistack.png" class="responsive">
           </article>
           <article class="wow fadeIn col big full">
@@ -139,7 +140,7 @@
             <p class='condensed'>Blockchain: Truffle, Solidity, MetaMask, Geth, TestRPC, Mocha + Chai</p>
             <p class='condensed'>Mobile: React Native, Redux, Web3, NativeBase</p>
             <p class='condensed'>Back End: NodeJS, Express, PostgreSQL</p>
-              <i  id="divstack" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <i id="divstack" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
         </section>
       </section>
@@ -149,7 +150,8 @@
         <section class="flex-grid">
           <article class="wow fadeIn col big">
             <h3>Budgie</h3>
-            <p>Budgie is a mobile application that uses Tesseract OCR to convert receipt images into usable data. This data is then visualized using D3/NVD3 to show spending patterns. The back end is hosted on an AWS EC2 instance, running a NodeJS + Express server. The mobile application was built using AngularJS, Ionic, and Cordova.</p>
+            <p>Budgie is a mobile application that uses Tesseract OCR to convert receipt images into usable data. This data is then visualized using D3/NVD3 to show spending patterns. The back end is hosted on an AWS EC2 instance, running a NodeJS + Express
+              server. The mobile application was built using AngularJS, Ionic, and Cordova.</p>
             <article class="links">
               <a class='link2' href="http://github.com/shhanson/budgie"><i class="fa fa-github link2" aria-hidden="true"></i>Front End</a>
               <a class='link2' href="https://github.com/shhanson/budgie/tree/database"><i class="fa fa-github link2" aria-hidden="true"></i>Back End</a>
@@ -167,17 +169,17 @@
           <article class="wow fadeIn col big full">
             <h3>Image Recognition</h3>
             <p>Budgie allows users to take a picture of a receipt using their device's camera or select an image from their camera roll. A base64 encoding of the image is then sent to the server, which uses an ImageMagick script to clean the image. The cleaned
-              TIF file is then processed by Tesseract OCR to extract the text. Regualar expressions parse the text string to return individual receipt items. These items are then sent back to the application as JSON. The user is then able to edit the populated
-              data before it is stored in the database.</p>
-            <i  id="imagerec" class="fa fa-eye expand link2" aria-hidden="true"></i>
+              TIF file is then processed by Tesseract OCR to extract the text. Regualar expressions parse the text string to return individual receipt items. These items are then sent back to the application as JSON. The user is then able to edit the
+              populated data before it is stored in the database.</p>
+            <i id="imagerec" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
         </section>
         <section class="flex-grid">
           <article class="wow fadeIn col big full">
             <h3>Data Visualization</h3>
-            <p>Budgie makes use of the NVD3 library to create D3 data visualizations, based on the user's spending data. The data is retrieved from the database, formatted into an NVD3-friendly format, then rendered into an interactive graph that allows user's to analyze their
-              spending over time and across different categories. Users can toggle categories and locations on and off to view potential savings over time.</p>
-              <i  id="dataviz" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <p>Budgie makes use of the NVD3 library to create D3 data visualizations, based on the user's spending data. The data is retrieved from the database, formatted into an NVD3-friendly format, then rendered into an interactive graph that allows
+              user's to analyze their spending over time and across different categories. Users can toggle categories and locations on and off to view potential savings over time.</p>
+            <i id="dataviz" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
           <article class="wow fadeIn col3 dataviz">
             <iframe src='http://gifs.com/embed/budgie-demo2-4Rm79k' frameborder='0' scrolling='no' width='202px' height='360px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'></iframe>
@@ -189,10 +191,10 @@
           </article>
           <article class="wow fadeIn col big full">
             <h3>Technology</h3>
-            <p >Mobile: Angular, Ionic, Cordova, D3, NVD3</p>
-            <p >Back End: NodeJS, Express, PostgreSQL, Tesseract OCR, ImageMagick</p>
-            <p >Hosting: AWS - EC2 instance</p>
-            <i  id="budgiestack" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <p>Mobile: Angular, Ionic, Cordova, D3, NVD3</p>
+            <p>Back End: NodeJS, Express, PostgreSQL, Tesseract OCR, ImageMagick</p>
+            <p>Hosting: AWS - EC2 instance</p>
+            <i id="budgiestack" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
         </section>
       </section>
@@ -203,11 +205,12 @@
           <article class="wow fadeIn col big">
             <h3>nutriSNP</h3>
             <p>nutriSNP is an advanced calorie and macronutrient calculator that integrates with the 23andMe API to determine users' metabolic phenotype. This phenotype, along with some basic lifestyle data, is used to calculate caloric and macronutrient
-              reccommendations based on the user's current goals. The raw genetic data is sent to the server, which analyzes the SNPs and returns the user's phenotype. This phenotype is then stored in the database and used to calculate calorie and macronutrient recommendations any time the user changes their profile data.</p>
-              <article class="links">
-                <a class='link2' href="http://github.com/ama2488/nutrisnp"><i class="fa fa-github link2" aria-hidden="true"></i>View Code</a>
-                <a class='link2' href="https://www.nutrisnp.herokuapp.com"><i class="fa fa-external-link link2" aria-hidden="true"></i>Live Site</a>
-              </article>
+              reccommendations based on the user's current goals. The raw genetic data is sent to the server, which analyzes the SNPs and returns the user's phenotype. This phenotype is then stored in the database and used to calculate calorie and macronutrient
+              recommendations any time the user changes their profile data.</p>
+            <article class="links">
+              <a class='link2' href="http://github.com/ama2488/nutrisnp"><i class="fa fa-github link2" aria-hidden="true"></i>View Code</a>
+              <a class='link2' href="https://www.nutrisnp.herokuapp.com"><i class="fa fa-external-link link2" aria-hidden="true"></i>Live Site</a>
+            </article>
           </article>
           <article class="wow fadeIn col3">
             <img src="./nutrisnp.jpg" class="responsive">
@@ -219,9 +222,9 @@
           </article>
           <article class="wow fadeIn col big full">
             <h3>Genetic Data</h3>
-            <p>Genetic data is gathered via the 23andMe API. The user must authenticate nutriSNP to import their results the first time they login. Those results are then used to calculate the user's metabolic phenotype. Both the genotype and phenotype are displayed on the user's
-              profile page and saved to the database.</p>
-              <i  id="genes" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <p>Genetic data is gathered via the 23andMe API. The user must authenticate nutriSNP to import their results the first time they login. Those results are then used to calculate the user's metabolic phenotype. Both the genotype and phenotype are
+              displayed on the user's profile page and saved to the database.</p>
+            <i id="genes" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
         </section>
         <section class="flex-grid">
@@ -229,7 +232,7 @@
             <h3>Calorie Recommendations</h3>
             <p>Calorie recommendations are based on user-entered lifestyle data (height, weight, age, gender, and activity levels). The macronutrient ratios and amounts are determined from the user's 23andMe results. These recommendations are then displayed
               on a clean, easy-to-read profile page. If a user does not currently have an account with 23andMe, they may still receive calorie and macronutrient recommendations based on their lifestyle data.</p>
-              <i  id="calories" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <i id="calories" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
           <article class="wow fadeIn col3 calories">
             <img src="./profile.png" class="responsive">
@@ -243,7 +246,7 @@
             <h3>Technology</h3>
             <p class='condensed'>Front End: Javascript, EJS, Materialize, PassportJS</p>
             <p class='condensed'>Back End: NodeJS, Express, PostgreSQL, Mocha + Chai, Heroku, 23andMe API</p>
-            <i  id="nutristack" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <i id="nutristack" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
         </section>
       </section>
@@ -255,10 +258,10 @@
             <h3>Realist</h3>
             <p>Realist is a drawing game that makes use of the Google Vision API. Users are prompted to draw a specific image. Once the image is submitted, Google Vision attempts to guess the prompt. On the results page, users can browse submissions from
               other users, along with the Google Vision results. Users may log in with either Google or Facebook to sign their artwork. Otherwise, the drawings will show as Anonymous. </p>
-              <article class="links">
-                <a class="link2" href="http://github.com/ama2488/realist"><i class="fa fa-github link2" aria-hidden="true"></i>View Code</a>
-                <a class="link2" href="https://realist-167521.firebaseapp.com/"><i class="fa fa-external-link link2 " aria-hidden="true"></i>Live Site</a>
-              </article>
+            <article class="links">
+              <a class="link2" href="http://github.com/ama2488/realist"><i class="fa fa-github link2" aria-hidden="true"></i>View Code</a>
+              <a class="link2" href="https://realist-167521.firebaseapp.com/"><i class="fa fa-external-link link2 " aria-hidden="true"></i>Live Site</a>
+            </article>
           </article>
           <article class="wow fadeIn col3">
             <img src="./realist.png" class="responsive hidesmall">
@@ -272,14 +275,14 @@
             <h3>Image Recognition</h3>
             <p>Once a user submits an image, the base64 string is sent to the Google Vision API for interpretation and the user is taken to the results page. The results are listed in order of confidence percentage. Generic results, such as "line art" are
               filtered from the results. The submitted image is also sent to the Firebase database to later be displayed in the gallery. </p>
-              <i  id="google" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <i id="google" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
         </section>
         <section class="flex-grid">
           <article class="wow fadeIn col big full">
             <h3>Gallery</h3>
             <p>The gallery shows artwork submitted by users, along with the corresponding Google Vision results. If a user logs in, their name is displayed with their drawing. Otherwise, the images are shown as annonymous.</p>
-            <i  id="gallery" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <i id="gallery" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
           <article class="wow fadeIn col3 gallery">
             <img src="./gallery.png" class="responsive">
@@ -292,7 +295,7 @@
           <article class="wow fadeIn col big full">
             <h3>Technology</h3>
             <p class='condensed'> Javascript, Materialize, Firebase, Google Vision API, DrawingBoard.js</p>
-            <i  id="realiststack" class="fa fa-eye expand link2" aria-hidden="true"></i>
+            <i id="realiststack" class="fa fa-eye expand link2" aria-hidden="true"></i>
           </article>
         </section>
       </section>
@@ -302,12 +305,12 @@
       <h1>thanks for stopping by!</h1>
       <section class="flex-grid">
         <article class="wow fadeIn col full">
-          <form enctype="text/plain" method="post" action="https://formspree.io/hello@amandamallen.com">
-<input type="text" name="name" placeholder="name"><br>
-<input type="email" name="email" placeholder="email"><br>
-<textarea rows=5 cols="45" name="comments"></textarea><br>
-<input type="submit" value="Send" class="button">
-</form>
+          <form method="post" action="https://formspree.io/hello@amandamallen.com">
+            <input type="text" name="name" placeholder="name"><br>
+            <input type="email" name="email" placeholder="email"><br>
+            <textarea rows=5 cols="45" name="comments"></textarea><br>
+            <input type="submit" value="Send" class="button">
+          </form>
         </article>
       </section>
     </section>
@@ -316,14 +319,14 @@
 
 <footer>
   <div class="links contactlinks">
-      <a href="http://www.linkedin.com/in/amandamarieallen/"><i class="fa fa-linkedin-square fa-2x contactlink" aria-hidden="true"></i></a>
-      <a href="mailto:hello@amandamallen.com"><i class="fa fa-envelope fa-2x contactlink" aria-hidden="true"></i></a>
-      <a href="http://github.com/ama2488"><i class="fa fa-github-square fa-2x contactlink" aria-hidden="true"></i></a>
-      <a href="skype:amanda.allen112?userinfo"><i class="fa fa-skype fa-2x contactlink" aria-hidden="true"></i></a>
-    </div>
-    <h5>
-    Copyright 2017 Amanda Marie Allen
-  </h5>
+    <a href="http://www.linkedin.com/in/amandamarieallen/"><i class="fa fa-linkedin-square fa-2x contactlink" aria-hidden="true"></i></a>
+    <a href="mailto:hello@amandamallen.com"><i class="fa fa-envelope fa-2x contactlink" aria-hidden="true"></i></a>
+    <a href="http://github.com/ama2488"><i class="fa fa-github-square fa-2x contactlink" aria-hidden="true"></i></a>
+    <a href="skype:amanda.allen112?userinfo"><i class="fa fa-skype fa-2x contactlink" aria-hidden="true"></i></a>
+  </div>
+  <h5>
+                    Copyright 2017 Amanda Marie Allen
+                  </h5>
 </footer>
 
 <script src="https://use.fontawesome.com/0c9d470fc5.js"></script>
@@ -340,8 +343,8 @@
     live: true,
     callback: function(box) {
 
-  },
-  scrollContainer: null
+    },
+    scrollContainer: null
   });
   wow.init();
 
@@ -351,20 +354,22 @@
   }
 
   function onLinkClick(link) {
-  $(`#${link}`)[0].scrollIntoView({behavior:'smooth'});
-}
+    $(`#${link}`)[0].scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
 
-function showMore(event) {
-  let section = $(event.target);
-  console.log(section[0].parentElement);
-  $(`.${section[0].id}`).toggle();
-  $(section[0].parentElement).toggleClass('full');
-  // $(section[0].parentElement).animate({width: '-=60%'});
-}
+  function showMore(event) {
+    let section = $(event.target);
+    console.log(section[0].parentElement);
+    $(`.${section[0].id}`).toggle();
+    $(section[0].parentElement).toggleClass('full');
+    // $(section[0].parentElement).animate({width: '-=60%'});
+  }
 
-$('.expand').click(showMore)
+  $('.expand').click(showMore)
 
-$('textarea').autoResize();
-
+  $('textarea').autoResize();
 </script>
+
 </html>
