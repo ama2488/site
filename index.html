@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Amanda Marie Allen</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100|Sacramento" rel="stylesheet">
   <link rel="stylesheet" href="./node_modules/wowjs/css/libs/animate.css">
@@ -13,19 +13,18 @@
   <section class="header" id="top">
     <section clas="content">
       <article class="logo">
-        <img src="./ama.png" alt="Amanda Marie Allen">
+        <img src="./ama.png" alt="Amanda Marie Allen" class="images">
         <!-- Amanda Marie Allen -->
       </article>
-      <canvas height="58px" width="276px" class="logo"></canvas>
     </section>
-    <div class="links menu">
+    <div class="menu">
       <a class="menulink" onclick="onLinkClick('about')">About</a> \\
       <a class="menulink" onclick="onLinkClick('work')">Work</a> \\
       <a class="menulink" onclick="onLinkClick('contact')">Contact</a> \\
       <a class="menulink" href="https://drive.google.com/file/d/0B7nTHiqsCu2OUmo5VGtjRG1ZLWc/view?usp=sharing">Resume</a>
     </div>
-    <a onclick="onLinkClick('about')" class="float leftside"><i class="fa fa-angle-double-down fa-3x link" aria-hidden="true"></i></a>
-    <a onclick="onLinkClick('top')" class="float rightside"><i class="fa fa-angle-double-up fa-3x link" aria-hidden="true"></i></a>
+    <a onclick="onLinkClick('about')" class="float leftside hidesmall"><i class="fa fa-angle-double-down fa-3x link" aria-hidden="true"></i></a>
+    <a onclick="onLinkClick('top')" class="float rightside hidesmall"><i class="fa fa-angle-double-up fa-3x link" aria-hidden="true"></i></a>
   </section>
 
   <main id="main">
@@ -39,12 +38,12 @@
           </p>
         </article>
         <article class="wow fadeIn col3">
-          <img src="./me2.jpg" class="marg" height="400px">
+          <img src="./me2.jpg" class="marg images">
         </article>
       </section>
       <section class="flex-grid">
         <article class="wow fadeIn col4">
-          <img src="./me.jpg" height="400px" class="marg hidesmall">
+          <img src="./me.jpg" class="marg hidesmall images">
         </article>
         <article class="wow fadeIn col justright play">
           <h3 class="">Play</h3>
@@ -103,7 +102,7 @@
             </article>
           </article>
           <article class="wow fadeIn col3">
-            <img src="./2.png" alt="Amanda Allen" width: '100%' class="hidesmall">
+            <img src="./2.png" alt="Amanda Allen" width: '100%' class="images hidesmall">
           </article>
         </section>
         <section class="flex-grid">
@@ -133,7 +132,7 @@
         </section>
         <section class="flex-grid">
           <article class="wow fadeIn col4 divstack">
-            <img src="./divvistack.png" class="responsive">
+            <img src="./divvistack.png" class="responsive images">
           </article>
           <article class="wow fadeIn col big full">
             <h3>Technology</h3>
@@ -159,7 +158,7 @@
             </article>
           </article>
           <article class="wow fadeIn col3">
-            <img src="https://pre00.deviantart.net/a231/th/pre/f/2011/307/a/e/pudgy_budgie_by_minjixmuu_chan-d4e3x26.png" class="hidesmall" height="400px" width="400px">
+            <img src="https://pre00.deviantart.net/a231/th/pre/f/2011/307/a/e/pudgy_budgie_by_minjixmuu_chan-d4e3x26.png" class="hidesmall images" height="400px">
           </article>
         </section>
         <section class="flex-grid">
@@ -187,7 +186,7 @@
         </section>
         <section class="flex-grid">
           <article class="wow fadeIn col4 budgiestack">
-            <img src="./budgiestack.png" class="responsive">
+            <img src="./budgiestack.png" class="responsive images">
           </article>
           <article class="wow fadeIn col big full">
             <h3>Technology</h3>
@@ -213,7 +212,7 @@
             </article>
           </article>
           <article class="wow fadeIn col3">
-            <img src="./nutrisnp.jpg" class="responsive">
+            <img src="./nutrisnp.jpg" class="responsive images">
           </article>
         </section>
         <section class="flex-grid">
@@ -240,7 +239,7 @@
         </section>
         <section class="flex-grid">
           <article class="wow fadeIn col4 nutristack">
-            <img src="./nutristack.png" class="responsive">
+            <img src="./nutristack.png" class="responsive images">
           </article>
           <article class="wow fadeIn col big full">
             <h3>Technology</h3>
@@ -269,7 +268,7 @@
         </section>
         <section class="flex-grid">
           <article class="wow fadeIn col4 google">
-            <img src="./results.png" class="responsive">
+            <img src="./results.png" class="responsive images">
           </article>
           <article class="wow fadeIn col big full">
             <h3>Image Recognition</h3>
@@ -290,7 +289,7 @@
         </section>
         <section class="flex-grid">
           <article class="wow fadeIn col4 realiststack">
-            <img src="./realiststack.png" class="responsive">
+            <img src="./realiststack.png" class="responsive images">
           </article>
           <article class="wow fadeIn col big full">
             <h3>Technology</h3>
@@ -302,7 +301,7 @@
     </section>
 
     <section id="contact" class="panel contact">
-      <h1>thanks for stopping by!</h1>
+      <h1>reach out</h1>
       <section class="flex-grid">
         <article class="wow fadeIn col full">
           <form method="post" action="https://formspree.io/hello@amandamallen.com">
@@ -368,8 +367,6 @@
   }
 
   $('.expand').click(showMore)
-
-  $('textarea').autoResize();
 </script>
 
 </html>
