@@ -54,6 +54,7 @@ h3 {
   font-family: sans-serif;
   background-color: transparent;
   margin: 12px;
+  margin-left:24px;
 }
 
 .logo {
@@ -108,7 +109,7 @@ h3 {
   min-height: 350px;
 }
 
-.col3 {
+.col3, .col4 {
   margin: 5px;
   text-align: left;
   background-color: white;
@@ -117,9 +118,6 @@ h3 {
 
 .col4 {
   text-align: right;
-  background-color: white;
-  width: 50%;
-  margin:5px;
 }
 
 .marg {
@@ -138,6 +136,11 @@ h3 {
 
 .big {
   width:60%;
+  background-color: #E0EEEF;
+}
+
+.full {
+  width: 100%;
   background-color: #E0EEEF;
 }
 
@@ -187,6 +190,7 @@ h3 {
 .menulink:hover {
   color: #BBBE64;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 footer {
@@ -241,6 +245,7 @@ footer h5 {
   color: black;
   background-color: transparent;
   margin: 12px;
+  cursor: pointer;
 }
 
 .contactlinks {
@@ -255,6 +260,11 @@ footer h5 {
 
 .responsive {
   width: 100%;
+}
+
+.expand {
+  padding-left: 40px;
+  font-weight: 100;
 }
 
 @media (max-width: 500px) {
@@ -282,6 +292,6 @@ footer h5 {
   }
 }
 
-#divvi, #realist, #budgie, #nutriSNP {
+#divvi, #realist, #budgie, #nutriSNP, .organizations, .accounts, .divstack, .budgiestack, .dataviz, .imagerec, .nutristack, .genes, .calories, .realiststack, .google, .gallery {
   display: none;
 }
